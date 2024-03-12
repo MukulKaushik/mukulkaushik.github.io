@@ -1,1 +1,1 @@
-# Mukul-Kaushik.github.io
+# mukulkaushik.github.io
