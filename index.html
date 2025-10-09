@@ -2577,7 +2577,7 @@
             const subject = 'Resume Request from Portfolio Website';
             const body = `Hello Mukul,
 
-A visitor has requested your resume through your portfolio website.
+${name || 'A visitor'} has requested your resume through your portfolio website.
 
 Details:
 - Name: ${name || 'Not provided'}
@@ -2596,7 +2596,7 @@ Portfolio Website`;
             window.location.href = mailtoLink;
             
             // Show success message
-            alert('Thank you for your interest! Your email client should open with a pre-filled message. Please send the email to complete your resume request.');
+            alert("Thank you for your interest! Your email client should open now. Please send the email to complete your resume request. If that doesn't work kindly drom an email at 1kaushikmukul@gmail.com");
             
             // Close modal
             $('#resumeModal').modal('hide');
